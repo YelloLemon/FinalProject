@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background-image: url(Images/Background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+	font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+
+}
+
+
+.circular--square 
+{
+	position: center;
+	top: 50px;
+	height: 700;
+	border border-radius: 50%;
+	border-top-left-radius:  50%;
+	border-top-right-radius:  50%;
+	border-bottom-right-radius:  50%;
+	border-bottom-left-radius: 50% ;
+	border: 6px solid #2c1b0c;
+	<!--border: 6px solid #36454F;-->
+	
+}
+.navbar
+{
+    font-size: 1 em;
+    background-color: #;
+    margin: 5px;
+    padding: 5px;
+}
+h1
+{
+    font-size: 1.5em;
+    background-color: #333;
+    margin: 10px;
+    padding: 10px;
+}
+
+.resume-card
+{
+    font-size: 1.5em;
+    background-color: #333;
+    margin: 20px;
+    padding: 40px;
+}
+p {
+	font-size: .5em;
+    background-color: #white;
+    margin: 20px;
+    padding: 0px;
+}
+p,
+li 
+{
+    font-size: .5em;
+}
+
+.guestbook
+{
+    font-size: 1.5em;
+    background-color: #333;
+    margin: 20px;
+    padding: 40px;
+}
+.tittle
+{
+	font-size: 1.5em;
+    background-color: #333;
+    margin: 10px;
+    padding: 10px;
+}
+form
+{
+	font-size: 1em;
+    background-color: #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+div
+{
+	color: white;
+}
+
+.interest
+{
+	font-size: 1.5em;
+    background-color: #333;
+    margin: 20px;
+    padding: 40px;
+}
+p,
+{
+	font-size: 1.5em;
+    background-color: #333;
+    margin: 20px;
+    padding: 40px;
+}
+.interest
+{
+	font-size: 1.5em;
+    background-color: #333;
+    margin: 20px;
+    padding: 40px;
+}
+.container2
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  padding: 5px;
+}
+
+.button1:hover {
+  background-color: #ccc;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  padding: 5px;
+}
+
+.button2:hover {
+  background-color: #ccc;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  padding: 5px;
+}
+
+.button3:hover {
+  background-color: #ccc;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+.button4:hover {background-color: #ccc;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+
+
+
+
+

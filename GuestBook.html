@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>Home Page - Emma Te</title>
+<link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar" align="center">
+		
+			<img class="circular--square" src="Images/Avatar.jpg" alt="Avatar" height="200" width=200/>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<nav> 
+					<a href="home.html" class="button1">Home</a>
+					|
+					<a href="Resume.html" class="button2">Resume</a>
+					|
+					<a href="GuestBook.html" class="button3">Guestbook</a>
+					|
+					<a href="Interest.html" class="button4">Interest</a>
+					|
+					<a href="Reflection.html" class="button5">Reflection</a>
+				</nav></div>
+<br>
+
+<!--Main SECTION STarts HERE-->
+
+				<br>
+<div class="Guestbook">
+<article>
+<h1 style="text-align:center;">Guest Book</h1>
+
+<div class="tittle">
+<h2 style="color:white; text-align:center; margin-top:0px;" >Please let me know a little about yourself.</h2></div>
+
+<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your First Name: <input type="text" name="FirstName" size="40"/>
+<br/>
+<br/>
+Enter Your Last Name: <input type="text" name="LastName" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+Enter Your Website Address: <input type="text" name="Website" size="40"/>
+<br/>
+<br/>
+What country do you live in? <input type="text" name="CountryFrom" size="40"/>
+<br/>
+<br/>
+What is your age group?<br/>
+<input type="radio" name="AddToList" value="Under18"/>Under 18 <br/>
+<input type="radio" name="AddToList" value="18-30"/>18-30<br/>
+<input type="radio" name="AddToList" value="31-45"/>31-45<br/>
+<input type="radio" name="AddToList" value="46-64"/>46-64<br/>
+<input type="radio" name="AddToList" value="65+"/>65 and over
+<br/>
+<br/>
+Should we add you to our mailing list?<input type="checkbox" name="EMailList"/><br/>
+<br/>
+<br/>
+What web technologies are you interested in? (choose all that apply):
+<br/>
+<select name="work" Multiple="multiple" size="6">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+<br/>
+<br/>
+How did you find my website?<br/>
+<select name="FindWebsite">
+<option>Select one</option>
+<option>I'm a friend</option>
+<option>A friend directed me to your site</option>
+<option>School Web Site</option>
+<option>A search engine directed me to your site</Option>
+<option>I came across your site by accident</option>
+<option>Other</option>
+</select>
+<br/>
+<br/>
+
+Comments: <br/>
+<textarea name="comments" cols="30" rows="3">Enter your message here
+</textarea>
+<br/>
+<br/>
+<input type="submit"/>
+<input type="reset"/>	
+</form>
+</article>
+
+</body>
+</html>
